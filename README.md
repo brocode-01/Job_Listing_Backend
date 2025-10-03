@@ -1,10 +1,10 @@
 # JobHunt Pro - Job Listings Backend
 
-A powerful Flask-based RESTful API backend for the [JobHunt Pro](https://github.com/M-Husnain-Ali/JobHuntPro-Job-Listing-Frontend) application. Features intelligent job scraping from LinkedIn with advanced filtering and prioritization.
+A powerful Flask-based RESTful API backend for the [JobHunt Pro](https://github.com/brocode-01/Job_Listing_Frontend.git) application. Features intelligent job scraping from LinkedIn with advanced filtering and prioritization.
 
 ## 🔗 Project Components
 
-- **Frontend**: [JobHuntPro-Job-Listing-Frontend](https://github.com/M-Husnain-Ali/JobHuntPro-Job-Listing-Frontend)
+- **Frontend**: [Job-Listing-Frontend](https://github.com/brocode-01/Job_Listing_Frontend.git)
   - Modern React-based UI
   - Responsive design
   - Real-time job updates
@@ -61,7 +61,7 @@ git clone <backend-repository-url>
 cd job-listings-backend
 
 # Clone frontend (in a different directory)
-git clone https://github.com/M-Husnain-Ali/JobHuntPro-Job-Listing-Frontend
+git clone https://github.com/brocode-01/Job_Listing_Frontend.git
 ```
 
 2. Setup backend:
@@ -89,7 +89,7 @@ The API will be available at `http://localhost:5000`
 
 4. Setup frontend (optional):
 ```bash
-cd ../JobHuntPro-Job-Listing-Frontend
+cd Job-Listing-Frontend
 npm install
 npm start
 ```
@@ -239,19 +239,3 @@ The scraper includes sophisticated job filtering and ranking:
 - SQL injection prevention
 - Scraper anti-detection
 - Error handling and logging
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a new branch for your feature
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🔗 Related Projects
-
-- [JobHunt Pro Frontend](https://github.com/M-Husnain-Ali/JobHuntPro-Job-Listing-Frontend) - The React frontend for this application 
